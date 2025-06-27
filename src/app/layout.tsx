@@ -7,7 +7,7 @@ const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
 });
-import Header from "@/components/Layout/Header";
+// import Header from "@/components/Layout/Header";
 import ThemeProvider from "@/providers/ThemeProvider";
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function RootLayout({
       <CssBaseline />
       <ThemeProvider>
         <body>
-          <Header />
+          {/* <Header /> */}
           {children}
         </body>
       </ThemeProvider>
